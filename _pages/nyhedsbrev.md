@@ -10,4 +10,4 @@ sitemap: false
 signup: false
 ---
 
-{% include lead-magnet.html id="lcoiqr00bkg6ybq62bs" %}
+{% include lead-magnet.html id="lcpaptpcevw0banyu7v" %}
