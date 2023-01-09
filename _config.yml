@@ -69,7 +69,7 @@ twitter:
 facebook:
   username               : ""
   app_id                 :
-  publisher              : https://www.facebook.com/slagbolddk
+  publisher              : https://www.facebook.com/profile.php?id=100089615190942
 og_image                 : # Open Graph/Twitter default site image
 
 # For specifying social profiles
@@ -78,7 +78,7 @@ social:
   type                   : "Organization" # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
-    - https://www.facebook.com/profile.php?id=100088882583481
+    - https://www.facebook.com/profile.php?id=100089615190942
     - https://www.pinterest.dk/slagbolddk/
 
 
@@ -100,7 +100,7 @@ footer:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       webslides: "fa-facebook-official"
-      url: "https://www.facebook.com/profile.php?id=100088882583481"
+      url: "https://www.facebook.com/profile.php?id=100089615190942"
     - label: "Pinterest"
       icon: "fab fa-fw fa-pinterest"
       url: "https://www.pinterest.dk/slagbolddk/"
@@ -137,7 +137,7 @@ author:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       webslides: "fa-facebook-official"
-      url: "https://www.facebook.com/slagbolddk"
+      url: "https://www.facebook.com/profile.php?id=100089615190942"
 #    - label: "Twitter"
 #      icon: "fab fa-fw fa-twitter-square"
 #      url: "https://twitter.com/motionsplan"

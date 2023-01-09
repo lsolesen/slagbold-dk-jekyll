@@ -1,11 +1,11 @@
-name: discer
+name: slagbold
 
 backend:
   name: github
-  repo: lsolesen/discer-dk-jekyll
+  repo: lsolesen/slagbold-dk-jekyll
   branch: master # Branch to update (optional; defaults to master)
   api_root: https://api.github.com
-  site_domain: discer.netlify.app
+  site_domain: slagbold.netlify.app
   base_url: https://api.netlify.com
   auth_endpoint: auth
   cms_label_prefix: netlify-cms/
@@ -14,9 +14,9 @@ backend:
 
 media_folder: "assets/images/uploads" # Media files will be stored in the repo under images/uploads
 
-site_url: https://www.discer.dk
-display_url: https://www.discer.dk
-logo_url: https://www.discer.dk/android-chrome-192x192.png
+site_url: https://www.slagbold.dk
+display_url: https://www.slagbold.dk
+logo_url: https://www.slagbold.dk/android-chrome-192x192.png
 
 show_preview_links: true
 

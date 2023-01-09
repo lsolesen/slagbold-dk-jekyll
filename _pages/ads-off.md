@@ -7,7 +7,7 @@ redirect_from:
 author_profile: true
 sitemap: false
 intro:
-  - excerpt: 'Følg os på &nbsp; [<i class="fab fa-facebook-f"></i> Facebook](https://www.facebook.com/slagbolddk){: .btn .btn--facebook } og [<i class="fab fa-pinterest"></i> Pinterest](https://www.pinterest.dk/slagbolddk/){: .btn .btn--danger }'
+  - excerpt: 'Følg os på &nbsp; [<i class="fab fa-facebook-f"></i> Facebook](https://www.facebook.com/profile.php?id=100089615190942){: .btn .btn--facebook } og [<i class="fab fa-pinterest"></i> Pinterest](https://www.pinterest.dk/slagbolddk/){: .btn .btn--danger }'
 
 ---
 
