@@ -1,0 +1,15 @@
+lsolesen:
+  name: "Lars Olesen"
+  bio: "Mangeårig idrætshøjskolelærer og ketsjer-entusiast. Elsker at spille padel, men nyder også at spille badminton og andre ketsjerspil. Har for nylig opdaget både skumtennis og pickleball."
+  avatar: "/assets/images/authors/larsolesen.jpg"
+  featured: true
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:lars@vih.dk"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/lsolesen/"
+    - label: "Køb mig en kaffe"
+      icon: "fas fa-fw fa-mug-hot"
+      url: "https://www.buymeacoffee.com/lsolesen"

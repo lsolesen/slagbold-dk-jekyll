@@ -1,0 +1,90 @@
+---
+title: Slagbold - alt om ketsjersport og slagboldspil
+description: Slagbold er et site om ketsjersport og idrætsgrene med bat. Vi elsker padel, badminton, tennis, bordtennis, pickleball og andre idrætsgrene med ketsjer og bat.
+excerpt: Slagbold er et site om ketsjersport og idrætsgrene med bat. Vi elsker padel, badminton, tennis, bordtennis, pickleball og andre idrætsgrene med ketsjer og bat.
+layout: splash
+header:
+  overlay_image: https://images.unsplash.com/photo-1526888935184-a82d2a4b7e67?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=630&w=1200&q=10
+  caption: Slagbold - alt om ketsjersport og slaboldspil
+intro:
+  - excerpt: >
+      Slagbold er et site om ketsjersport og idrætsgrene med bat. Vi elsker padel, badminton, tennis, bordtennis, pickleball og andre idrætsgrene med ketsjer og bat.
+
+
+      Følg os på &nbsp; [<i class="fab fa-facebook-f"></i> Facebook](https://www.facebook.com/slagbolddk){: .btn .btn--facebook } og [<i class="fab fa-pinterest"></i> Pinterest](https://www.pinterest.dk/slagbolddk/){: .btn .btn--danger }
+blog_link:
+  - excerpt: "[Læs resten af artiklerne](/blog/){: .btn .btn--large .btn--success }"
+feature_row_content:
+  - image_path: https://images.unsplash.com/photo-1613870930431-a09c7139eb33?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
+    alt: Padeltennis
+    title: Padeltennis
+    excerpt: Padel er en udfordrende sport for alle. Du spiller med et padelbat og en padelbold i et bur. Idrætsgrenen er en blanding mellem tennis og squash - og alle kan være med. Det er hamrende sjovt.
+    url: /padel/
+    btn_label: Alt om padel
+    btn_class: btn--info
+  - image_path: https://images.unsplash.com/photo-1613918431703-aa50889e3be9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
+    alt: Badminton
+    title: Badminton
+    excerpt: Er du klar til at udfordre dig selv og dine venner i en sjov og intens
+      idræt? Badminton er en sport, hvor du spiller på tværs af et net med en fjerbold. Det er intenst og sjovt i alle aldre - og vi har verdens bedste udøvere i Danmark. 
+    url: /badminton/
+    btn_label: Alt om badminton
+    btn_class: btn--info
+  - image_path: https://images.unsplash.com/photo-1659318006095-4d44845f3a1b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=300&w=400&q=10
+    alt: Pickeball
+    title: Pickleball
+    excerpt: Pickleball er et rigtig sjovt spil for alle aldre. Du behøver ikke særlig meget plads, og pickleball kan både spilles inde og ude. Læs alt om pickleball og
+      bliv inspireret til et rigtig sjovt spil.
+    url: /pickleball/
+    btn_label: Alt om pickleball
+    btn_class: btn--info
+last_modified_at: 2023-01-04T10:07:30+01:00
+author_profile: true
+gallery:
+  - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=87287
+    rel: sponsored nofollow noopener
+    image_path: https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=87287
+    alt: Padel Specialist
+  - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=79690
+    rel: sponsored nofollow noopener
+    image_path: https://www.padelshoppen.com/wp-content/uploads/2022/03/Padelshoppen-300-%C3%97-250.jpg
+    alt: Padel Specialist
+  - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=98527
+    rel: sponsored nofollow noopener
+    image_path: /assets/images/ad/cuera-padel.jpg
+    alt: Cuera Padel
+---
+
+{% include feature_row type="center" id="intro" %}
+
+{% assign site_posts = site.posts | where: "tags", "featured" | sort: "last_modified_at" | reverse %}
+
+{% if site_posts.size > 0 %}
+<h2>Mest populære sider</h2>
+<div class="feature__wrapper">
+  {% for post in site_posts limit:4 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+</div>
+{% endif %}
+
+{% assign site_posts = site.posts | sort: "last_modified_at" | reverse %}
+
+{% if site_posts.size > 0 %}
+<h2>Spritnye indlæg på Slagbold</h2>
+
+<div class="feature__wrapper">
+  {% for post in site_posts limit:8 %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+</div>
+
+{% include feature_row id="blog_link" type="center" %}
+
+{% endif %}
+
+<h2>Emner om træning på Slagbold</h2>
+
+{% include feature_row id="feature_row_content" %}
+
+{% include gallery %}

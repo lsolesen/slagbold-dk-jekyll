@@ -1,0 +1,15 @@
+# main links
+main:
+  - title: Padel
+    url: /padel/
+  - title: "Badminton"
+    url: /badminton/
+  - title: "Pickleball"
+    url: /pickleball/
+  - title: "Blog"
+    url: /blog/
+  - title: "Om"
+    url: /om/
+blog:
+  - title: "Blog"
+    url: /blog/
