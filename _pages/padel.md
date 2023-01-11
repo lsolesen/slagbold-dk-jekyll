@@ -8,10 +8,10 @@ header:
   caption: *title
 author_profile: true
 faq:
-  - question: Hvad vil det sige at have en god kondition?
-    answer: Du er i god kondition, når konditallet er tilstrækkelig højt. Din kondition varierer med alderen og for mænd og kvinder. Du kan kigge i vores [tabeller over kondital](/kondital/), hvis du gerne vil have vurderet dit.
-  - question: Hvad er dårlig kondition?
-    answer: Hvis konditallet er lavt ifølge de gængse [normer for kondital](/kondital/), så siger man, at du er i dårlig kondition. Konditionen afhænger især af alderen.
+  - question: Hvad er forskellen på tennis og padel tennis?
+    answer: I padel spiller I ofte fire sammen i en double. Du kan godt spille padel som single på særlige baner. I padel er der glasvægge rundt om banen, som giver rebounds, og derfor får du sikkert mere flow i spillet. Samtidig er det lidt lettere at slå og kontrollere bolden med et padelbat sammenlignet med en tennisketsjer.
+  - question: Kan alle spille padel?
+    answer: Ja. Alle kan spille padel. Padel kræver ikke store tekniske eller fysiske færdigheder for at få en god oplevelse af spillet. Det er meget lettere at lære end tennis, badminton og squash. Samtidig kan du blive ved med at lære nye ting, så det er også sjovt, når du bliver rigtig dygtig til at spille.
 breadcrumbs: true
 toc: false
 gallery:
@@ -50,3 +50,6 @@ gallery:
 </div>
 {% endif %}
 
+## Ofte stillede spørgsmål
+
+{% include faq.html %}
