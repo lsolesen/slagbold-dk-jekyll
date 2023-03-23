@@ -10,9 +10,9 @@ breadcrumbs: true
 
 Slagbold er et gratis medie for alle brugerne. Der ligger rigtig mange timer bag ved artiklerne og indholdet på sitet.
 
-Slagbold ejes og drives af Lars Olesen (chefredaktør), som er tidligere medejer af Discimport.dk.
+Slagbold ejes og drives af Lars Olesen (chefredaktør).
 
-Lars Olesen er cand.scient. og har læst Sundhed og Idræt på Syddansk Universitet. Under studiet fik han øjnene op for ultimate frisbee og senere discgolf. Han har i flere år undervist i discsporten på [Vejle Idrætshøjskole](https://www.vih.dk/).
+Lars Olesen er cand.scient. og har læst Sundhed og Idræt på Syddansk Universitet.
 
 ## Gratis medie med reklamer
 
