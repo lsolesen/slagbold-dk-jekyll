@@ -331,11 +331,6 @@ defaults:
       toc_sticky: false
       author: lsolesen
       sidebar:
-        - title: Køb padelbat
-          text: |
-            [![Tempo Padel logo](https://cdn.shopify.com/s/files/1/0607/9823/8962/products/POWER_1800x1800.jpg?v=1655287816)](https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=97449){: rel="sponsored nofollow noopener" }
-
-            Dansk producerede bat fra Tempo Padel. Topkvalitet!
           nav: blog
   # _pages
   - scope:

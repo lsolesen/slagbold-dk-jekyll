@@ -15,10 +15,6 @@ gallery:
     rel: sponsored nofollow noopener
     image_path: https://www.padelshoppen.com/wp-content/uploads/2022/03/Padelshoppen-300-%C3%97-250.jpg
     alt: Padel Specialist
-  - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=98527
-    rel: sponsored nofollow noopener
-    image_path: /assets/images/ad/cuera-padel.jpg
-    alt: Cuera Padel
 ---
 
 {% assign site_posts = site.posts | sort: "last_modified_at" | reverse %}

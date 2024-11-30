@@ -21,11 +21,11 @@ gallery:
     image_path: https://www.padelshoppen.com/wp-content/uploads/2022/03/Padelshoppen-300-%C3%97-250.jpg
     alt: Padel Specialist
     title: Padel Specialist
-  - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=98527
+  - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=111416
     rel: sponsored nofollow noopener
-    image_path: /assets/images/ad/cuera-padel.jpg
-    alt: Cuera Padel
-    title: Cuera Padel
+    image_path: https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=111411
+    alt: Racketlife
+    title: Racketlife
 author_profile: true
 faq:
   - question: Hvilket land stammer badminton fra?

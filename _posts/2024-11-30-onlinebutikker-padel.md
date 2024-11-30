@@ -19,12 +19,19 @@ gallery:
     rel: sponsored nofollow noopener
     image_path: https://www.partner-ads.com/dk/visbanner.php?partnerid=28187&bannerid=87287
     alt: Padel Specialist
-    title: Padel Specialist
+    name: Padel Specialist
   - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=79690
     rel: sponsored nofollow noopener
     image_path: https://www.padelshoppen.com/wp-content/uploads/2022/03/Padelshoppen-300-%C3%97-250.jpg
     alt: Padelshoppen
-    title: Padelshoppen
+    name: Padelshoppen
+  - url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=103340
+    rel: sponsored nofollow noopener
+    alt: Padellife
+    name: Padellife
+  - name: Padelrack
+    url: https://www.partner-ads.com/dk/klikbanner.php?partnerid=28187&bannerid=101434
+    alt: Padelrack
 ---
 
 {{ page.excerpt }}
